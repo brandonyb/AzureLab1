@@ -96,7 +96,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://maxsolutiongroup-my.sharepoint.com/:u:/g/personal/brandon_max-solution_com/EVDJvVkJIcpIp-qRhAeC7N0Bm74i3tGBdXLn1MWufbp45Q?e=8j79nY",
+                    "uri": "https://github.com/brandonyb/AzureLab1/blob/master/templateAzure.json",
                     "contentVersion": "1.0.0.0"
                 }
             }
