@@ -26,6 +26,7 @@
     },
     "variables": {
         "baseUri": "https://cloudworkshop.blob.core.windows.net/building-resilient-iaas-architecture/lab-resources/",
+		"baseUri2": "https://github.com/brandonyb/AzureLab1/blob/master/",
         "ADInstallScript": "[concat(variables('baseUri'), 'script-extensions/deploy-ad.ps1')]"
     },
     "resources": [
@@ -96,7 +97,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://github.com/brandonyb/AzureLab1/blob/master/templateAzure.json",
+                    "uri": "[concat(variables('baseUri2'), 'templateAzure.json')]",
                     "contentVersion": "1.0.0.0"
                 }
             }
